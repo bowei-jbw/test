@@ -4,17 +4,17 @@
 
 - 1.1.1 【强制】使用 2 个空格缩进。 eslint: [`indent`](https://eslint.org/docs/rules/indent.html)
 
-  ```javascript
-  // bad
-  function foo() {
-  ∙∙∙∙let name;
-  }
+```javascript
+// bad
+function foo() {
+∙∙∙∙let name;
+}
 
-  // good
-  function bar() {
-  ∙∙let name;
-  }
-  ```
+// good
+function bar() {
+∙∙let name;
+}
+```
 
 - 1.1.2 【强制】缩进规则：当一个新**块（block）**出现时，缩进增加 2 个空格。当一个块结束时，回到上一个层级的缩进级别。eslint: [`indent`](https://eslint.org/docs/rules/indent.html)
 
